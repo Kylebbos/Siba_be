@@ -1,0 +1,2 @@
+GET http://localhost:3001/city
+GET http://localhost:3001/city?searchText=burg
