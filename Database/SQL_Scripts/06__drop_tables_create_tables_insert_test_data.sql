@@ -835,3 +835,13 @@ INSERT INTO log_type(name) VALUES ("allocation");
 /* ---------------------------------------------------------- */
 /* ---------------------------------------------------------- */
 
+CREATE TABLE City (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(200),
+  established DATE,
+  averageTemp DECIMAL(3,1)
+);
+
+INSERT INTO City (name, established, averageTemp) VALUES
+('Example City', '1800-01-01', 15.2),
+('Sampleville', '1900-05-20', 16.4);
