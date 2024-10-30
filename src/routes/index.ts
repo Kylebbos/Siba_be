@@ -2,7 +2,6 @@ import express from 'express';
 import allocround from './allocRound.js';
 import allocation from './allocation.js';
 import building from './building.js';
-import cityRoutes from './city.js';
 import department from './department.js';
 import departmentplanner from './departmentplanner.js';
 import equipment from './equipment.js';
@@ -35,6 +34,5 @@ routes.use('/user', user);
 routes.use('/departmentplanner', departmentplanner);
 routes.use('/template', template);
 routes.use('/resetDatabase', resetDatabase);
-routes.use('/city', cityRoutes);
 
 export default routes;
